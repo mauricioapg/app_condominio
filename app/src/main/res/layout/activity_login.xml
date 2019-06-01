@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActivityLogin"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:hint="Senha:"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</LinearLayout>
